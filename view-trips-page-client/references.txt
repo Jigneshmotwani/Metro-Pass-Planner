@@ -1,0 +1,18 @@
+Fonts
+https://fonts.google.com
+
+Icons
+https://fontawesome.com/search?o=r&m=free&s=solid&f=classic
+
+Navigation Bar
+https://github.com/Ibaslogic/react-multilevel-dropdown-menu/tree/main
+
+Modals
+https://github.com/rafiqulshopon/react-scrollable-table-modal/tree/local
+https://mui.com/joy-ui/react-modal/
+
+Cards
+https://mui.com/joy-ui/react-card/#actions
+
+Firebase User Information
+https://firebase.google.com/docs/auth/web/manage-users

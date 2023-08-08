@@ -1,0 +1,171 @@
+MERGE (a1:Station{name:'Yodoyabashi'})
+ON CREATE SET a1.lat = 34.6922603, a1.lng = 135.5010607
+
+MERGE (a2:Station{name:'Kitahama'})
+ON CREATE SET a2.lat = 34.6916902, a2.lng = 135.5066495
+
+MERGE (a3:Station{name:'Temmabashi'})
+ON CREATE SET a3.lat = 34.6889899, a3.lng = 135.5173537
+
+MERGE (a4:Station{name:'Kyobashi'})
+ON CREATE SET a4.lat = 34.6966873, a4.lng = 135.5339093
+
+MERGE (a5:Station{name:'Sekime'})
+ON CREATE SET a5.lat = 34.7126877, a5.lng = 135.5469425
+
+MERGE (a6:Station{name:'Kadomashi'})
+ON CREATE SET a6.lat = 34.738046, a6.lng = 135.5829259
+
+MERGE (a7:Station{name:'Neyagawashi'})
+ON CREATE SET a7.lat = 34.7639445, a7.lng = 135.6207132
+
+MERGE (a8:Station{name:'Hirakata-koen'})
+ON CREATE SET a8.lat = 34.8113759, a8.lng = 135.6393661
+
+MERGE (a9:Station{name:'Hirakatashi'})
+ON CREATE SET a9.lat = 34.8160625, a9.lng = 135.6485733
+
+MERGE (a10:Station{name:'Kuzuha'})
+ON CREATE SET a10.lat = 34.8619697, a10.lng = 135.6753674
+
+MERGE (a11:Station{name:'Yawatashi'})
+ON CREATE SET a11.lat = 34.8844261, a11.lng = 135.7003613
+
+MERGE (a12:Station{name:'Chushojima'})
+ON CREATE SET a12.lat = 34.926712, a12.lng = 135.7601788
+
+MERGE (a13:Station{name:'Tambabashi'})
+ON CREATE SET a13.lat = 34.9384146, a13.lng = 135.7663879
+
+MERGE (a14:Station{name:'Fushimi-Inari'})
+ON CREATE SET a14.lat = 34.9687169, a14.lng = 135.7693409
+
+MERGE (a15:Station{name:'Tofukuji'})
+ON CREATE SET a15.lat = 34.9810435, a15.lng = 135.7700082
+
+MERGE (a16:Station{name:'Shichijo'})
+ON CREATE SET a16.lat = 34.9898122, a16.lng = 135.7678703
+
+MERGE (a17:Station{name:'Kiyomizu-Gojo'})
+ON CREATE SET a17.lat = 34.995902, a17.lng = 135.7685703
+
+MERGE (a18:Station{name:'Gion-shijo'})
+ON CREATE SET a18.lat = 35.0039655, a18.lng = 135.7720956
+
+MERGE (a19:Station{name:'Sanjo'})
+ON CREATE SET a19.lat = 35.0094371, a19.lng = 135.7723022
+
+MERGE (a20:Station{name:'Demachiyanagi'})
+ON CREATE SET a20.lat = 35.0305004, a20.lng = 135.7732318
+
+MERGE (a21:Station{name:'Nakanoshima'})
+ON CREATE SET a21.lat = 34.6910993, a21.lng = 135.4870329
+
+MERGE (a22:Station{name:'Watanabebashi'})
+ON CREATE SET a22.lat = 34.6937811, a22.lng = 135.4942812
+
+MERGE (a23:Station{name:'Oebashi'})
+ON CREATE SET a23.lat = 34.6942682, a23.lng = 135.4999598
+
+MERGE (a24:Station{name:'Naniwabashi'})
+ON CREATE SET a24.lat = 34.6928555, a24.lng = 135.5061448
+
+MERGE (a25:Station{name:'Murano'})
+ON CREATE SET a25.lat = 34.8018987, a25.lng = 135.6643446
+
+MERGE (a26:Station{name:'Katanoshi'})
+ON CREATE SET a26.lat = 34.7869809, a26.lng = 135.6755376
+
+MERGE (a27:Station{name:'Kawachimori'})
+ON CREATE SET a27.lat = 34.7737359, a27.lng = 135.6855613
+
+MERGE (a28:Station{name:'Kisaichi'})
+ON CREATE SET a28.lat = 34.7672625, a28.lng = 135.6865435
+
+MERGE (a29:Station{name:'Otokoyama-sanjo'})
+ON CREATE SET a29.lat = 34.8809552, a29.lng = 135.6998218
+
+MERGE (a30:Station{name:'Momoyama-Minamiguchi'})
+ON CREATE SET a30.lat = 34.9310652, a30.lng = 135.7837713
+
+MERGE (a31:Station{name:'Obaku'})
+ON CREATE SET a31.lat = 34.9143316, a31.lng = 135.8025679
+
+MERGE (a32:Station{name:'Uji'})
+ON CREATE SET a32.lat = 34.8944531, a32.lng = 135.8062464
+
+MERGE (a33:Station{name:'Misasagi'})
+ON CREATE SET a33.lat = 34.9960624, a33.lng = 135.8017657
+
+MERGE (a34:Station{name:'Keihan-Yamashita'})
+ON CREATE SET a34.lat = 34.9919491, a34.lng = 135.8168678
+
+MERGE (a35:Station{name:'Biwako-Hamaotsu'})
+ON CREATE SET a35.lat = 35.0113047, a35.lng = 135.8639093
+
+MERGE (a36:Station{name:'Ishiyamadera'})
+ON CREATE SET a36.lat = 34.9670761, a36.lng = 135.9033884
+
+MERGE (a37:Station{name:'Keihan-Ishiyama'})
+ON CREATE SET a37.lat = 34.9795966, a37.lng = 135.8996675
+
+MERGE (a38:Station{name:'Zezehommachi'})
+ON CREATE SET a38.lat = 34.9950003, a38.lng = 135.8894469
+
+MERGE (a39:Station{name:'Keihan-Zeze'})
+ON CREATE SET a39.lat = 34.9997167, a39.lng = 135.8810979
+
+MERGE (a40:Station{name:'Keihan-Otsukyo'})
+ON CREATE SET a40.lat = 35.023298, a40.lng = 135.855546
+
+MERGE (a41:Station{name:'Omi-Jingu-Mae'})
+ON CREATE SET a41.lat = 35.0281041, a41.lng = 135.8557737
+
+MERGE (a42:Station{name:'Shigasato'})
+ON CREATE SET a42.lat = 35.0434046, a42.lng = 135.8589758
+
+MERGE (a43:Station{name:'Sakamoto-Hieizanguchi'})
+ON CREATE SET a43.lat = 35.070771, a43.lng = 135.8713192
+
+
+MERGE (a1)-[:Connected{distance:0.5149, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a2)
+MERGE (a2)-[:Connected{distance:1.0237, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a3)
+MERGE (a3)-[:Connected{distance:1.7389, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a4)
+MERGE (a4)-[:Connected{distance:2.1412, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a5)
+MERGE (a5)-[:Connected{distance:4.3319, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a6)
+MERGE (a6)-[:Connected{distance:4.4957, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a7)
+MERGE (a7)-[:Connected{distance:5.5424, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a8)
+MERGE (a8)-[:Connected{distance:0.989, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a9)
+MERGE (a9)-[:Connected{distance:5.6601, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a10)
+MERGE (a10)-[:Connected{distance:3.3814, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a11)
+MERGE (a11)-[:Connected{distance:7.2016, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a12)
+MERGE (a12)-[:Connected{distance:1.419, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a13)
+MERGE (a13)-[:Connected{distance:3.3802, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a14)
+MERGE (a14)-[:Connected{distance:1.372, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a15)
+MERGE (a15)-[:Connected{distance:0.9943, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a16)
+MERGE (a16)-[:Connected{distance:0.6802, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a17)
+MERGE (a17)-[:Connected{distance:0.9524, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a18)
+MERGE (a18)-[:Connected{distance:0.6087, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a19)
+MERGE (a19)-[:Connected{distance:2.3437, Operator :'Keihan Electric Railway', Railway: 'Keihan Main Line'}]->(a20)
+MERGE (a21)-[:Connected{distance:0.7267, Operator :'Keihan Electric Railway', Railway: 'Keihan Nakanoshima Line'}]->(a22)
+MERGE (a22)-[:Connected{distance:0.522, Operator :'Keihan Electric Railway', Railway: 'Keihan Nakanoshima Line'}]->(a23)
+MERGE (a23)-[:Connected{distance:0.5869, Operator :'Keihan Electric Railway', Railway: 'Keihan Nakanoshima Line'}]->(a24)
+MERGE (a24)-[:Connected{distance:1.1113, Operator :'Keihan Electric Railway', Railway: 'Keihan Nakanoshima Line'}]->(a3)
+MERGE (a9)-[:Connected{distance:2.1339, Operator :'Keihan Electric Railway', Railway: 'Keihan Katano Line'}]->(a25)
+MERGE (a25)-[:Connected{distance:1.9484, Operator :'Keihan Electric Railway', Railway: 'Keihan Katano Line'}]->(a26)
+MERGE (a26)-[:Connected{distance:1.7341, Operator :'Keihan Electric Railway', Railway: 'Keihan Katano Line'}]->(a27)
+MERGE (a27)-[:Connected{distance:0.7254, Operator :'Keihan Electric Railway', Railway: 'Keihan Katano Line'}]->(a28)
+MERGE (a11)-[:Connected{distance:0.3891, Operator :'Keihan Electric Railway', Railway: 'Otokoyama Cable Line'}]->(a29)
+MERGE (a12)-[:Connected{distance:2.2046, Operator :'Keihan Electric Railway', Railway: 'Keihan Uji Line'}]->(a30)
+MERGE (a30)-[:Connected{distance:2.5296, Operator :'Keihan Electric Railway', Railway: 'Keihan Uji Line'}]->(a31)
+MERGE (a31)-[:Connected{distance:2.2357, Operator :'Keihan Electric Railway', Railway: 'Keihan Uji Line'}]->(a32)
+MERGE (a33)-[:Connected{distance:1.4497, Operator :'Keihan Electric Railway', Railway: 'Keihan Keishin Line'}]->(a34)
+MERGE (a34)-[:Connected{distance:4.7949, Operator :'Keihan Electric Railway', Railway: 'Keihan Keishin Line'}]->(a35)
+MERGE (a36)-[:Connected{distance:1.4329, Operator :'Keihan Electric Railway', Railway: 'Keihan Ishiyama Sakamoto Line'}]->(a37)
+MERGE (a37)-[:Connected{distance:1.9495, Operator :'Keihan Electric Railway', Railway: 'Keihan Ishiyama Sakamoto Line'}]->(a38)
+MERGE (a38)-[:Connected{distance:0.9238, Operator :'Keihan Electric Railway', Railway: 'Keihan Ishiyama Sakamoto Line'}]->(a39)
+MERGE (a39)-[:Connected{distance:2.0276, Operator :'Keihan Electric Railway', Railway: 'Keihan Ishiyama Sakamoto Line'}]->(a35)
+MERGE (a35)-[:Connected{distance:1.5358, Operator :'Keihan Electric Railway', Railway: 'Keihan Ishiyama Sakamoto Line'}]->(a40)
+MERGE (a40)-[:Connected{distance:0.5348, Operator :'Keihan Electric Railway', Railway: 'Keihan Ishiyama Sakamoto Line'}]->(a41)
+MERGE (a41)-[:Connected{distance:1.7261, Operator :'Keihan Electric Railway', Railway: 'Keihan Ishiyama Sakamoto Line'}]->(a42)
+MERGE (a42)-[:Connected{distance:3.2438, Operator :'Keihan Electric Railway', Railway: 'Keihan Ishiyama Sakamoto Line'}]->(a43)

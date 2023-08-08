@@ -1,0 +1,66 @@
+version: '3.8'
+services:
+  ## The frontend and backend code that is commited to Github is written for localhost
+  ## To run the code on Docker, the following changes are required:
+  ## 1. In the frontend code, change the URL in the fetch requests to the backend to http://165.22.248.255/:4000
+
+  # Frontend container
+  frontend:
+    build:
+      context: ./metro_planner
+    ports:
+      - "3000:3000"
+
+  # Backend container
+  backend:
+    build:
+      context: ./server
+    ports:
+      - "4000:4000"
+
+  # Neo4j database container
+  neo4j:
+    image: neo4j:latest
+    container_name: neo4j
+    ports:
+      - '7474:7474'
+      - '7687:7687'
+    volumes:
+      - neo4j_data:/data
+      - neo4j_logs:/logs
+      - neo4j_import:/import
+      - neo4j_plugins:/plugins
+    environment:
+      # Disable Authentication
+      - NEO4J_AUTH=none
+      - NEO4JLABS_PLUGINS='["graph-data-science"]'
+    restart: always
+
+  # MongoDB database container
+  mongodb_container:
+    image: mongo:latest
+    container_name: mongodb_container
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: rootpassword
+    ports:
+      - 90:27017
+    restart: always
+    volumes:
+      - mongodb_data_container:/data/db
+    networks:
+      - mongo
+
+volumes:
+  neo4j_data:
+  neo4j_logs:
+  neo4j_import:
+  neo4j_plugins:
+  mongodb_data_container:
+
+networks:
+  mongo:
+    name: mongo
+    driver: bridge
+    driver_opts:
+        com.docker.network.bridge.name: mongo  

@@ -1,0 +1,28 @@
+MERGE (a1:Station{name:'Kawanishi-Noseguchi'})
+ON CREATE SET a1.lat = 34.827646, a1.lng = 135.4131059
+
+MERGE (a2:Station{name:'Uguisunomori'})
+ON CREATE SET a2.lat = 34.8479305, a2.lng = 135.4187645
+
+MERGE (a3:Station{name:'Ichinotorii'})
+ON CREATE SET a3.lat = 34.8791372, a3.lng = 135.4203488
+
+MERGE (a4:Station{name:'Yamashita'})
+ON CREATE SET a4.lat = 34.8932848, a4.lng = 135.4124068
+
+MERGE (a5:Station{name:'Kofudai'})
+ON CREATE SET a5.lat = 34.9001305, a5.lng = 135.4317767
+
+MERGE (a6:Station{name:'Myoken-Guchi'})
+ON CREATE SET a6.lat = 34.911433, a6.lng = 135.4445195
+
+MERGE (a7:Station{name:'Nisseichuo'})
+ON CREATE SET a7.lat = 34.9064687, a7.lng = 135.3931478
+
+
+MERGE (a1)-[:Connected{Operator :'Nose Electric Railway', Railway: 'Myoken Line', distance:2.3139}]->(a2)
+MERGE (a2)-[:Connected{Operator :'Nose Electric Railway', Railway: 'Myoken Line', distance:3.473}]->(a3)
+MERGE (a3)-[:Connected{Operator :'Nose Electric Railway', Railway: 'Myoken Line', distance:1.7319}]->(a4)
+MERGE (a4)-[:Connected{Operator :'Nose Electric Railway', Railway: 'Myoken Line', distance:1.9236}]->(a5)
+MERGE (a5)-[:Connected{Operator :'Nose Electric Railway', Railway: 'Myoken Line', distance:1.7117}]->(a6)
+MERGE (a4)-[:Connected{Operator :'Nose Electric Railway', Railway: 'Nissei Line', distance:2.2878}]->(a7)

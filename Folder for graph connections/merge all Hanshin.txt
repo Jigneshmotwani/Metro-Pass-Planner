@@ -1,0 +1,124 @@
+MERGE (a1:Station{name:'Nishidai'})
+ON CREATE SET a1.lat = 34.6621825, a1.lng = 135.1442597
+
+MERGE (a2:Station{name:'Kosoku-Nagata'})
+ON CREATE SET a2.lat = 34.6673326, a2.lng = 135.1517116
+
+MERGE (a3:Station{name:'Daikai'})
+ON CREATE SET a3.lat = 34.6713214, a3.lng = 135.1618633
+
+MERGE (a4:Station{name:'Shinkaichi'})
+ON CREATE SET a4.lat = 34.6764579, a4.lng = 135.1699814
+
+MERGE (a5:Station{name:'Kosoku-Kobe'})
+ON CREATE SET a5.lat = 34.6797064, a5.lng = 135.1750992
+
+MERGE (a6:Station{name:'Nishi-Motomachi'})
+ON CREATE SET a6.lat = 34.6841958, a6.lng = 135.17987
+
+MERGE (a7:Station{name:'Motomachi'})
+ON CREATE SET a7.lat = 34.6895653, a7.lng = 135.1873489
+
+MERGE (a8:Station{name:'Kobe-Sannomiya'})
+ON CREATE SET a8.lat = 34.6938288, a8.lng = 135.1960221
+
+MERGE (a9:Station{name:'Oishi'})
+ON CREATE SET a9.lat = 34.7077719, a9.lng = 135.2310779
+
+MERGE (a10:Station{name:'Mikage'})
+ON CREATE SET a10.lat = 34.7148802, a10.lng = 135.2561394
+
+MERGE (a11:Station{name:'Uozaki'})
+ON CREATE SET a11.lat = 34.7126002, a11.lng = 135.2692973
+
+MERGE (a12:Station{name:'Ashiya'})
+ON CREATE SET a12.lat = 34.7277342, a12.lng = 135.3035208
+
+MERGE (a13:Station{name:'Nishinomiya'})
+ON CREATE SET a13.lat = 34.7368694, a13.lng = 135.3380277
+
+MERGE (a14:Station{name:'Imazu'})
+ON CREATE SET a14.lat = 34.7307322, a14.lng = 135.3518481
+
+MERGE (a15:Station{name:'Koshien'})
+ON CREATE SET a15.lat = 34.7239336, a15.lng = 135.3631777
+
+MERGE (a16:Station{name:'Mukogawa'})
+ON CREATE SET a16.lat = 34.7187182, a16.lng = 135.3814332
+
+MERGE (a17:Station{name:'Amagasaki'})
+ON CREATE SET a17.lat = 34.7185155, a17.lng = 135.4172816
+
+MERGE (a18:Station{name:'Daimotsu'})
+ON CREATE SET a18.lat = 34.7163891, a18.lng = 135.4263907
+
+MERGE (a19:Station{name:'Himejima'})
+ON CREATE SET a19.lat = 34.7044033, a19.lng = 135.4581795
+
+MERGE (a20:Station{name:'Noda'})
+ON CREATE SET a20.lat = 34.6943618, a20.lng = 135.4763089
+
+MERGE (a21:Station{name:'Fukushima'})
+ON CREATE SET a21.lat = 34.6971618, a21.lng = 135.4866492
+
+MERGE (a22:Station{name:'Osaka-Umeda'})
+ON CREATE SET a22.lat = 34.7050172, a22.lng = 135.4984499
+
+MERGE (a23:Station{name:'Dempo'})
+ON CREATE SET a23.lat = 34.6890243, a23.lng = 135.4517331
+
+MERGE (a24:Station{name:'Nishikujo'})
+ON CREATE SET a24.lat = 34.6821406, a24.lng = 135.4661485
+
+MERGE (a25:Station{name:'Kujo'})
+ON CREATE SET a25.lat = 34.6752094, a25.lng = 135.4733961
+
+MERGE (a26:Station{name:'Dome-Mae'})
+ON CREATE SET a26.lat = 34.6704398, a26.lng = 135.4783932
+
+MERGE (a27:Station{name:'Sakuragawa'})
+ON CREATE SET a27.lat = 34.6684272, a27.lng = 135.4882632
+
+MERGE (a28:Station{name:'Osaka-Namba'})
+ON CREATE SET a28.lat = 34.6670798, a28.lng = 135.4989202
+
+MERGE (a29:Station{name:'Higashi-Naruo'})
+ON CREATE SET a29.lat = 34.712628, a29.lng = 135.379116
+
+MERGE (a30:Station{name:'Suzaki'})
+ON CREATE SET a30.lat = 34.7089528, a30.lng = 135.3779977
+
+MERGE (a31:Station{name:'Mukogawadanchi-Mae'})
+ON CREATE SET a31.lat = 34.7046933, a31.lng = 135.3746297
+
+
+MERGE (a1)-[:Connected{distance:0.8902, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a2)
+MERGE (a2)-[:Connected{distance:1.0289, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a3)
+MERGE (a3)-[:Connected{distance:0.9367, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a4)
+MERGE (a4)-[:Connected{distance:0.5912, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a5)
+MERGE (a5)-[:Connected{distance:0.6629, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a6)
+MERGE (a6)-[:Connected{distance:0.9078, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a7)
+MERGE (a7)-[:Connected{distance:0.9239, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a8)
+MERGE (a8)-[:Connected{distance:3.56, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a9)
+MERGE (a9)-[:Connected{distance:2.4233, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a10)
+MERGE (a10)-[:Connected{distance:1.2291, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a11)
+MERGE (a11)-[:Connected{distance:3.5518, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a12)
+MERGE (a12)-[:Connected{distance:3.3129, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a13)
+MERGE (a13)-[:Connected{distance:1.4355, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a14)
+MERGE (a14)-[:Connected{distance:1.282, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a15)
+MERGE (a15)-[:Connected{distance:1.7664, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a16)
+MERGE (a16)-[:Connected{distance:3.2765, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a17)
+MERGE (a17)-[:Connected{distance:0.8655, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Namba Line'}]->(a18)
+MERGE (a18)-[:Connected{distance:3.1968, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a19)
+MERGE (a19)-[:Connected{distance:1.9984, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a20)
+MERGE (a20)-[:Connected{distance:0.9953, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a21)
+MERGE (a21)-[:Connected{distance:1.3881, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Main Line'}]->(a22)
+MERGE (a18)-[:Connected{distance:3.8244, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Namba Line'}]->(a23)
+MERGE (a23)-[:Connected{distance:1.5242, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Namba Line'}]->(a24)
+MERGE (a24)-[:Connected{distance:1.0165, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Namba Line'}]->(a25)
+MERGE (a25)-[:Connected{distance:0.7001, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Namba Line'}]->(a26)
+MERGE (a26)-[:Connected{distance:0.93, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Namba Line'}]->(a27)
+MERGE (a27)-[:Connected{distance:0.9861, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Namba Line'}]->(a28)
+MERGE (a16)-[:Connected{distance:0.7095, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Mukogawa Line'}]->(a29)
+MERGE (a29)-[:Connected{distance:0.4213, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Mukogawa Line'}]->(a30)
+MERGE (a30)-[:Connected{distance:0.5649, Operator :'Hanshin Electric Railway', Railway: 'Hanshin Mukogawa Line'}]->(a31)

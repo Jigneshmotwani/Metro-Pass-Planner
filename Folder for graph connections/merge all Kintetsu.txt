@@ -1,0 +1,395 @@
+MERGE (a1:Station{name:'Osaka-Namba'})
+ON CREATE SET a1.lat = 34.6670798, a1.lng = 135.4989202
+
+MERGE (a2:Station{name:'Kintetsu-Nippombashi'})
+ON CREATE SET a2.lat = 34.666985, a2.lng = 135.5060647
+
+MERGE (a3:Station{name:'Osaka-Uehommachi'})
+ON CREATE SET a3.lat = 34.6655535, a3.lng = 135.5207395
+
+MERGE (a4:Station{name:'Tsuruhashi'})
+ON CREATE SET a4.lat = 34.665248, a4.lng = 135.5303168
+
+MERGE (a5:Station{name:'Imazato'})
+ON CREATE SET a5.lat = 34.6646637, a5.lng = 135.5498601
+
+MERGE (a6:Station{name:'Fuse'})
+ON CREATE SET a6.lat = 34.6641024, a6.lng = 135.5636205
+
+MERGE (a7:Station{name:'Kawachi-Eiwa'})
+ON CREATE SET a7.lat = 34.6642421, a7.lng = 135.5728885
+
+MERGE (a8:Station{name:'Yaenosato'})
+ON CREATE SET a8.lat = 34.6636869, a8.lng = 135.5893064
+
+MERGE (a9:Station{name:'Kawachi-Hanazono'})
+ON CREATE SET a9.lat = 34.6629216, a9.lng = 135.6180365
+
+MERGE (a10:Station{name:'Hyotan-yama'})
+ON CREATE SET a10.lat = 34.6620423, a10.lng = 135.6396989
+
+MERGE (a11:Station{name:'Hiraoka'})
+ON CREATE SET a11.lat = 34.669857, a11.lng = 135.6480915
+
+MERGE (a12:Station{name:'Ikoma'})
+ON CREATE SET a12.lat = 34.6931906, a12.lng = 135.6978697
+
+MERGE (a13:Station{name:'Tomio'})
+ON CREATE SET a13.lat = 34.6942251, a13.lng = 135.7347246
+
+MERGE (a14:Station{name:'Ayameike'})
+ON CREATE SET a14.lat = 34.6980968, a14.lng = 135.761022
+
+MERGE (a15:Station{name:'Yamato-Saidaiji'})
+ON CREATE SET a15.lat = 34.6937782, a15.lng = 135.7827825
+
+MERGE (a16:Station{name:'Kintetsu-Nara'})
+ON CREATE SET a16.lat = 34.6842477, a16.lng = 135.8275274
+
+MERGE (a17:Station{name:'Minami-Ikoma'})
+ON CREATE SET a17.lat = 34.6654819, a17.lng = 135.7088478
+
+MERGE (a18:Station{name:'Motosanjoguchi'})
+ON CREATE SET a18.lat = 34.6402508, a18.lng = 135.7009369
+
+MERGE (a19:Station{name:'Seya-Kitaguchi'})
+ON CREATE SET a19.lat = 34.6060258, a19.lng = 135.7007298
+
+MERGE (a20:Station{name:'Oji'})
+ON CREATE SET a20.lat = 34.5976704, a20.lng = 135.7024851
+
+MERGE (a21:Station{name:'Nagata'})
+ON CREATE SET a21.lat = 34.6787282, a21.lng = 135.5919142
+
+MERGE (a22:Station{name:'Yoshita'})
+ON CREATE SET a22.lat = 34.6803072, a22.lng = 135.6241753
+
+MERGE (a23:Station{name:'Gakken-Nara-Tomigaoka'})
+ON CREATE SET a23.lat = 34.7249226, a23.lng = 135.7234735
+
+MERGE (a24:Station{name:'Kyoto'})
+ON CREATE SET a24.lat = 34.9858449, a24.lng = 135.7587602
+
+MERGE (a25:Station{name:'Takeda'})
+ON CREATE SET a25.lat = 34.9569211, a25.lng = 135.7561102
+
+MERGE (a26:Station{name:'Kintetsu-Tambabashi'})
+ON CREATE SET a26.lat = 34.9384146, a26.lng = 135.7663879
+
+MERGE (a27:Station{name:'Iseda'})
+ON CREATE SET a27.lat = 34.8821003, a27.lng = 135.7790046
+
+MERGE (a28:Station{name:'Tonosho'})
+ON CREATE SET a28.lat = 34.8401001, a28.lng = 135.7728502
+
+MERGE (a29:Station{name:'Miyamaki'})
+ON CREATE SET a29.lat = 34.7982112, a29.lng = 135.7860744
+
+MERGE (a30:Station{name:'Shin-Hosono'})
+ON CREATE SET a30.lat = 34.7599662, a30.lng = 135.7927551
+
+MERGE (a31:Station{name:'Takanohara'})
+ON CREATE SET a31.lat = 34.7237369, a31.lng = 135.7918711
+
+MERGE (a32:Station{name:'Nishinokyo'})
+ON CREATE SET a32.lat = 34.6704961, a32.lng = 135.7832797
+
+MERGE (a33:Station{name:'Hirahata'})
+ON CREATE SET a33.lat = 34.606515, a33.lng = 135.7825496
+
+MERGE (a34:Station{name:'Yuzaki'})
+ON CREATE SET a34.lat = 34.584262, a34.lng = 135.7847103
+
+MERGE (a35:Station{name:'Tawaramoto'})
+ON CREATE SET a35.lat = 34.5534967, a35.lng = 135.7906449
+
+MERGE (a36:Station{name:'Yamato-Yagi'})
+ON CREATE SET a36.lat = 34.5130587, a36.lng = 135.792223
+
+MERGE (a37:Station{name:'Kashiharajingu-mae'})
+ON CREATE SET a37.lat = 34.4834297, a37.lng = 135.7937999
+
+MERGE (a38:Station{name:'Tenri'})
+ON CREATE SET a38.lat = 34.6011462, a38.lng = 135.8301459
+
+MERGE (a39:Station{name:'Nishi-Tawaramoto'})
+ON CREATE SET a39.lat = 34.5536433, a39.lng = 135.7896994
+
+MERGE (a40:Station{name:'Ikebe'})
+ON CREATE SET a40.lat = 34.5786377, a40.lng = 135.7375767
+
+MERGE (a41:Station{name:'Shin-Oji'})
+ON CREATE SET a41.lat = 34.597717, a41.lng = 135.7044373
+
+MERGE (a42:Station{name:'Shuntokumichi'})
+ON CREATE SET a42.lat = 34.6583724, a42.lng = 135.5718736
+
+MERGE (a43:Station{name:'Kyuhojiguchi'})
+ON CREATE SET a43.lat = 34.634604, a43.lng = 135.5904537
+
+MERGE (a44:Station{name:'Kawachi-Yamamoto'})
+ON CREATE SET a44.lat = 34.6279792, a44.lng = 135.6196275
+
+MERGE (a45:Station{name:'Katashimo'})
+ON CREATE SET a45.lat = 34.5890075, a45.lng = 135.6273186
+
+MERGE (a46:Station{name:'Sekiya'})
+ON CREATE SET a46.lat = 34.5537931, a46.lng = 135.6678813
+
+MERGE (a47:Station{name:'Tsukiyama'})
+ON CREATE SET a47.lat = 34.526192, a47.lng = 135.732861
+
+MERGE (a48:Station{name:'Sakurai'})
+ON CREATE SET a48.lat = 34.5134849, a48.lng = 135.8462811
+
+MERGE (a49:Station{name:'Haibara'})
+ON CREATE SET a49.lat = 34.5297665, a49.lng = 135.9543884
+
+MERGE (a50:Station{name:'Akameguchi'})
+ON CREATE SET a50.lat = 34.5997393, a50.lng = 136.0743805
+
+MERGE (a51:Station{name:'Iga-Kambe'})
+ON CREATE SET a51.lat = 34.6738496, a51.lng = 136.1529227
+
+MERGE (a52:Station{name:'Sakakibara-onsenguchi'})
+ON CREATE SET a52.lat = 34.6747396, a52.lng = 136.3487424
+
+MERGE (a53:Station{name:'Ise-Nakagawa'})
+ON CREATE SET a53.lat = 34.6350275, a53.lng = 136.4778871
+
+MERGE (a54:Station{name:'Shigisanguchi'})
+ON CREATE SET a54.lat = 34.620011, a54.lng = 135.6419756
+
+MERGE (a55:Station{name:'Minami-Gaoka'})
+ON CREATE SET a55.lat = 34.692042, a55.lng = 136.4963276
+
+MERGE (a56:Station{name:'Tsu'})
+ON CREATE SET a56.lat = 34.7339932, a56.lng = 136.5102423
+
+MERGE (a57:Station{name:'Shiratsuka'})
+ON CREATE SET a57.lat = 34.7706733, a57.lng = 136.5324682
+
+MERGE (a58:Station{name:'Shiroko'})
+ON CREATE SET a58.lat = 34.8340522, a58.lng = 136.5896543
+
+MERGE (a59:Station{name:'Ise-Wakamatsu'})
+ON CREATE SET a59.lat = 34.8690591, a59.lng = 136.6162618
+
+MERGE (a60:Station{name:'Kusu'})
+ON CREATE SET a60.lat = 34.904836, a60.lng = 136.6311178
+
+MERGE (a61:Station{name:'Miyamado'})
+ON CREATE SET a61.lat = 34.9433494, a61.lng = 136.6229458
+
+MERGE (a62:Station{name:'Kintetsu-Yokkaichi'})
+ON CREATE SET a62.lat = 34.9670587, a62.lng = 136.6185082
+
+MERGE (a63:Station{name:'Kintetsu-Tomida'})
+ON CREATE SET a63.lat = 35.0071812, a63.lng = 136.6494257
+
+MERGE (a64:Station{name:'Kuwana'})
+ON CREATE SET a64.lat = 35.0667571, a64.lng = 136.683717
+
+MERGE (a65:Station{name:'Tomiyoshi'})
+ON CREATE SET a65.lat = 35.1235023, a65.lng = 136.7691585
+
+MERGE (a66:Station{name:'Kintetsu-Hatta'})
+ON CREATE SET a66.lat = 35.1495258, a66.lng = 136.8544281
+
+MERGE (a67:Station{name:'Kintetsu-Nagoya'})
+ON CREATE SET a67.lat = 35.1691597, a67.lng = 136.8842968
+
+MERGE (a68:Station{name:'Takatsuno'})
+ON CREATE SET a68.lat = 34.983184, a68.lng = 136.5544361
+
+MERGE (a69:Station{name:'Yunoyama-Onsen'})
+ON CREATE SET a69.lat = 35.0116168, a69.lng = 136.4737138
+
+MERGE (a70:Station{name:'Suzukashi'})
+ON CREATE SET a70.lat = 34.884082, a70.lng = 136.5822871
+
+MERGE (a71:Station{name:'Hiratacho'})
+ON CREATE SET a71.lat = 34.8751311, a71.lng = 136.5424057
+
+MERGE (a72:Station{name:'Matsusaka'})
+ON CREATE SET a72.lat = 34.5768799, a72.lng = 136.5355571
+
+MERGE (a73:Station{name:'Saiku'})
+ON CREATE SET a73.lat = 34.5378752, a73.lng = 136.6152177
+
+MERGE (a74:Station{name:'Iseshi'})
+ON CREATE SET a74.lat = 34.4910719, a74.lng = 136.7095924
+
+MERGE (a75:Station{name:'Ujiyamada'})
+ON CREATE SET a75.lat = 34.4882688, a75.lng = 136.7139585
+
+MERGE (a76:Station{name:'Asama'})
+ON CREATE SET a76.lat = 34.4773074, a76.lng = 136.7582028
+
+MERGE (a77:Station{name:'Toba'})
+ON CREATE SET a77.lat = 34.4867737, a77.lng = 136.8431316
+
+MERGE (a78:Station{name:'Kamo'})
+ON CREATE SET a78.lat = 34.4440481, a78.lng = 136.8465475
+
+MERGE (a79:Station{name:'Kaminogo'})
+ON CREATE SET a79.lat = 34.3795669, a79.lng = 136.8114055
+
+MERGE (a80:Station{name:'Ugata'})
+ON CREATE SET a80.lat = 34.3293959, a80.lng = 136.8259161
+
+MERGE (a81:Station{name:'Kashikojima'})
+ON CREATE SET a81.lat = 34.3085335, a81.lng = 136.818529
+
+MERGE (a82:Station{name:'Osaka-Abenobashi'})
+ON CREATE SET a82.lat = 34.6454929, a82.lng = 135.51505
+
+MERGE (a83:Station{name:'Harinakano'})
+ON CREATE SET a83.lat = 34.6170709, a83.lng = 135.5329735
+
+MERGE (a84:Station{name:'Kawachi-Matsubara'})
+ON CREATE SET a84.lat = 34.5755339, a84.lng = 135.5571315
+
+MERGE (a85:Station{name:'Domyoji'})
+ON CREATE SET a85.lat = 34.5677851, a85.lng = 135.6200378
+
+MERGE (a86:Station{name:'Furuichi'})
+ON CREATE SET a86.lat = 34.5536059, a86.lng = 135.6088231
+
+MERGE (a87:Station{name:'Nijojinjaguchi'})
+ON CREATE SET a87.lat = 34.5319048, a87.lng = 135.6940736
+
+MERGE (a88:Station{name:'Shakudo'})
+ON CREATE SET a88.lat = 34.5085623, a88.lng = 135.7210939
+
+MERGE (a89:Station{name:'Bojo'})
+ON CREATE SET a89.lat = 34.4933838, a89.lng = 135.7651366
+
+MERGE (a90:Station{name:'Asuka'})
+ON CREATE SET a90.lat = 34.464901, a90.lng = 135.7982614
+
+MERGE (a91:Station{name:'Ichio'})
+ON CREATE SET a91.lat = 34.4417504, a91.lng = 135.7761235
+
+MERGE (a92:Station{name:'Yoshinoguchi'})
+ON CREATE SET a92.lat = 34.4208361, a92.lng = 135.7508179
+
+MERGE (a93:Station{name:'Shimoichiguchi'})
+ON CREATE SET a93.lat = 34.3836777, a93.lng = 135.7872912
+
+MERGE (a94:Station{name:'Yoshino'})
+ON CREATE SET a94.lat = 34.3767269, a94.lng = 135.8535807
+
+MERGE (a95:Station{name:'Kashiwara'})
+ON CREATE SET a95.lat = 34.5868164, a95.lng = 135.6231962
+
+MERGE (a96:Station{name:'Kawanishi'})
+ON CREATE SET a96.lat = 34.4922003, a96.lng = 135.5909532
+
+MERGE (a97:Station{name:'Kawachi-Nagano'})
+ON CREATE SET a97.lat = 34.4510813, a97.lng = 135.5730913
+
+MERGE (a98:Station{name:'Kintetsu-Gose'})
+ON CREATE SET a98.lat = 34.4647196, a98.lng = 135.7323491
+
+
+MERGE (a1)-[:Connected{distance:0.6535, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a2)
+MERGE (a2)-[:Connected{distance:1.3515, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a3)
+MERGE (a3)-[:Connected{distance:0.8766, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a4)
+MERGE (a4)-[:Connected{distance:1.7886, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a5)
+MERGE (a5)-[:Connected{distance:1.26, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a6)
+MERGE (a6)-[:Connected{distance:0.8478, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a7)
+MERGE (a7)-[:Connected{distance:1.5028, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a8)
+MERGE (a8)-[:Connected{distance:2.629, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a9)
+MERGE (a9)-[:Connected{distance:1.9836, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a10)
+MERGE (a10)-[:Connected{distance:1.1594, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a11)
+MERGE (a11)-[:Connected{distance:5.2392, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a12)
+MERGE (a12)-[:Connected{distance:3.3714, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a13)
+MERGE (a13)-[:Connected{distance:2.4424, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a14)
+MERGE (a14)-[:Connected{distance:2.0465, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a15)
+MERGE (a15)-[:Connected{distance:4.2261, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nara Line'}]->(a16)
+MERGE (a12)-[:Connected{distance:3.2405, Operator :'Kintetsu Railway', Railway: 'Kintetsu Ikoma Line'}]->(a17)
+MERGE (a17)-[:Connected{distance:2.8974, Operator :'Kintetsu Railway', Railway: 'Kintetsu Ikoma Line'}]->(a18)
+MERGE (a18)-[:Connected{distance:3.8057, Operator :'Kintetsu Railway', Railway: 'Kintetsu Ikoma Line'}]->(a19)
+MERGE (a19)-[:Connected{distance:0.9429, Operator :'Kintetsu Railway', Railway: 'Kintetsu Ikoma Line'}]->(a20)
+MERGE (a21)-[:Connected{distance:2.9552, Operator :'Kintetsu Railway', Railway: 'Kintetsu Keihanna Line'}]->(a22)
+MERGE (a22)-[:Connected{distance:6.8887, Operator :'Kintetsu Railway', Railway: 'Kintetsu Keihanna Line'}]->(a12)
+MERGE (a12)-[:Connected{distance:4.2341, Operator :'Kintetsu Railway', Railway: 'Kintetsu Keihanna Line'}]->(a23)
+MERGE (a24)-[:Connected{distance:3.2252, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kyoto Line'}]->(a25)
+MERGE (a25)-[:Connected{distance:2.261, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kyoto Line'}]->(a26)
+MERGE (a26)-[:Connected{distance:6.3667, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kyoto Line'}]->(a27)
+MERGE (a27)-[:Connected{distance:4.7038, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kyoto Line'}]->(a28)
+MERGE (a28)-[:Connected{distance:4.8117, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kyoto Line'}]->(a29)
+MERGE (a29)-[:Connected{distance:4.2962, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kyoto Line'}]->(a30)
+MERGE (a30)-[:Connected{distance:4.0293, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kyoto Line'}]->(a31)
+MERGE (a31)-[:Connected{distance:3.4333, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kyoto Line'}]->(a15)
+MERGE (a15)-[:Connected{distance:2.5893, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kashihara Line'}]->(a32)
+MERGE (a32)-[:Connected{distance:7.1147, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kashihara Line'}]->(a33)
+MERGE (a33)-[:Connected{distance:2.4823, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kashihara Line'}]->(a34)
+MERGE (a34)-[:Connected{distance:3.4638, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kashihara Line'}]->(a35)
+MERGE (a35)-[:Connected{distance:4.4988, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kashihara Line'}]->(a36)
+MERGE (a36)-[:Connected{distance:3.2978, Operator :'Kintetsu Railway', Railway: 'Kintetsu Kashihara Line'}]->(a37)
+MERGE (a33)-[:Connected{distance:4.3969, Operator :'Kintetsu Railway', Railway: 'Kintetsu Tenri Line'}]->(a38)
+MERGE (a39)-[:Connected{distance:5.5229, Operator :'Kintetsu Railway', Railway: 'Kintetsu Tawaramoto Line'}]->(a40)
+MERGE (a40)-[:Connected{distance:3.7019, Operator :'Kintetsu Railway', Railway: 'Kintetsu Tawaramoto Line'}]->(a41)
+MERGE (a3)-[:Connected{distance:0.8766, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a4)
+MERGE (a4)-[:Connected{distance:1.7886, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a5)
+MERGE (a5)-[:Connected{distance:1.26, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a6)
+MERGE (a6)-[:Connected{distance:0.9878, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a42)
+MERGE (a42)-[:Connected{distance:3.1423, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a43)
+MERGE (a43)-[:Connected{distance:2.769, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a44)
+MERGE (a44)-[:Connected{distance:4.3902, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a45)
+MERGE (a45)-[:Connected{distance:5.3968, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a46)
+MERGE (a46)-[:Connected{distance:6.6965, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a47)
+MERGE (a47)-[:Connected{distance:5.6312, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a36)
+MERGE (a36)-[:Connected{distance:4.9532, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a48)
+MERGE (a48)-[:Connected{distance:10.0683, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a49)
+MERGE (a49)-[:Connected{distance:13.4633, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a50)
+MERGE (a50)-[:Connected{distance:10.9336, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a51)
+MERGE (a51)-[:Connected{distance:17.9073, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a52)
+MERGE (a52)-[:Connected{distance:12.611, Operator :'Kintetsu Railway', Railway: 'Kintetsu Osaka Line'}]->(a53)
+MERGE (a44)-[:Connected{distance:2.2286, Operator :'Kintetsu Railway', Railway: 'Kintetsu Shigi Line'}]->(a54)
+MERGE (a53)-[:Connected{distance:6.5602, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a55)
+MERGE (a55)-[:Connected{distance:4.835, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a56)
+MERGE (a56)-[:Connected{distance:4.5562, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a57)
+MERGE (a57)-[:Connected{distance:8.7709, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a58)
+MERGE (a58)-[:Connected{distance:4.5877, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a59)
+MERGE (a59)-[:Connected{distance:4.2027, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a60)
+MERGE (a60)-[:Connected{distance:4.3468, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a61)
+MERGE (a61)-[:Connected{distance:2.6672, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a62)
+MERGE (a62)-[:Connected{distance:5.2761, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a63)
+MERGE (a63)-[:Connected{distance:7.3234, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a64)
+MERGE (a64)-[:Connected{distance:10.012, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a65)
+MERGE (a65)-[:Connected{distance:8.2762, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a66)
+MERGE (a66)-[:Connected{distance:3.4841, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagoya Line'}]->(a67)
+MERGE (a62)-[:Connected{distance:6.107, Operator :'Kintetsu Railway', Railway: 'Kintetsu Yunoyama Line'}]->(a68)
+MERGE (a68)-[:Connected{distance:8.0038, Operator :'Kintetsu Railway', Railway: 'Kintetsu Yunoyama Line'}]->(a69)
+MERGE (a59)-[:Connected{distance:3.5208, Operator :'Kintetsu Railway', Railway: 'Kintetsu Suzuka Line'}]->(a70)
+MERGE (a70)-[:Connected{distance:3.7716, Operator :'Kintetsu Railway', Railway: 'Kintetsu Suzuka Line'}]->(a71)
+MERGE (a53)-[:Connected{distance:8.3465, Operator :'Kintetsu Railway', Railway: 'Kintetsu Yamada Line'}]->(a72)
+MERGE (a72)-[:Connected{distance:8.4869, Operator :'Kintetsu Railway', Railway: 'Kintetsu Yamada Line'}]->(a73)
+MERGE (a73)-[:Connected{distance:10.0922, Operator :'Kintetsu Railway', Railway: 'Kintetsu Yamada Line'}]->(a74)
+MERGE (a74)-[:Connected{distance:0.5072, Operator :'Kintetsu Railway', Railway: 'Kintetsu Yamada Line'}]->(a75)
+MERGE (a75)-[:Connected{distance:4.2345, Operator :'Kintetsu Railway', Railway: 'Kintetsu Toba Line'}]->(a76)
+MERGE (a76)-[:Connected{distance:7.8553, Operator :'Kintetsu Railway', Railway: 'Kintetsu Toba Line'}]->(a77)
+MERGE (a77)-[:Connected{distance:4.7612, Operator :'Kintetsu Railway', Railway: 'Kintetsu Shima Line'}]->(a78)
+MERGE (a78)-[:Connected{distance:7.8614, Operator :'Kintetsu Railway', Railway: 'Kintetsu Shima Line'}]->(a79)
+MERGE (a79)-[:Connected{distance:5.7356, Operator :'Kintetsu Railway', Railway: 'Kintetsu Shima Line'}]->(a80)
+MERGE (a80)-[:Connected{distance:2.417, Operator :'Kintetsu Railway', Railway: 'Kintetsu Shima Line'}]->(a81)
+MERGE (a82)-[:Connected{distance:3.5605, Operator :'Kintetsu Railway', Railway: 'Kintetsu Minami Osaka Line'}]->(a83)
+MERGE (a83)-[:Connected{distance:5.1207, Operator :'Kintetsu Railway', Railway: 'Kintetsu Minami Osaka Line'}]->(a84)
+MERGE (a84)-[:Connected{distance:5.8238, Operator :'Kintetsu Railway', Railway: 'Kintetsu Minami Osaka Line'}]->(a85)
+MERGE (a85)-[:Connected{distance:1.8816, Operator :'Kintetsu Railway', Railway: 'Kintetsu Minami Osaka Line'}]->(a86)
+MERGE (a86)-[:Connected{distance:8.1726, Operator :'Kintetsu Railway', Railway: 'Kintetsu Minami Osaka Line'}]->(a87)
+MERGE (a87)-[:Connected{distance:3.5868, Operator :'Kintetsu Railway', Railway: 'Kintetsu Minami Osaka Line'}]->(a88)
+MERGE (a88)-[:Connected{distance:4.3747, Operator :'Kintetsu Railway', Railway: 'Kintetsu Minami Osaka Line'}]->(a89)
+MERGE (a89)-[:Connected{distance:2.8507, Operator :'Kintetsu Railway', Railway: 'Kintetsu Minami Osaka Line'}]->(a37)
+MERGE (a37)-[:Connected{distance:2.1005, Operator :'Kintetsu Railway', Railway: 'Kintetsu Yoshino Line'}]->(a90)
+MERGE (a90)-[:Connected{distance:3.2782, Operator :'Kintetsu Railway', Railway: 'Kintetsu Yoshino Line'}]->(a91)
+MERGE (a91)-[:Connected{distance:3.2855, Operator :'Kintetsu Railway', Railway: 'Kintetsu Yoshino Line'}]->(a92)
+MERGE (a92)-[:Connected{distance:5.3169, Operator :'Kintetsu Railway', Railway: 'Kintetsu Yoshino Line'}]->(a93)
+MERGE (a93)-[:Connected{distance:6.1323, Operator :'Kintetsu Railway', Railway: 'Kintetsu Yoshino Line'}]->(a94)
+MERGE (a85)-[:Connected{distance:2.1358, Operator :'Kintetsu Railway', Railway: 'Kintetsu Domyoji Line'}]->(a95)
+MERGE (a86)-[:Connected{distance:7.0215, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagano Line'}]->(a96)
+MERGE (a96)-[:Connected{distance:4.8566, Operator :'Kintetsu Railway', Railway: 'Kintetsu Nagano Line'}]->(a97)
+MERGE (a88)-[:Connected{distance:4.983, Operator :'Kintetsu Railway', Railway: 'Kintetsu Gose Line'}]->(a98)

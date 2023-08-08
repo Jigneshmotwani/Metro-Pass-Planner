@@ -1,0 +1,194 @@
+MERGE (a1:Station{name:'Shinkaichi'})
+ON CREATE SET a1.lat = 34.6764579, a1.lng = 135.1699814
+
+MERGE (a2:Station{name:'Kosoku-Kobe'})
+ON CREATE SET a2.lat = 34.6797064, a2.lng = 135.1750992
+
+MERGE (a3:Station{name:'Kobe-Sannomiya'})
+ON CREATE SET a3.lat = 34.6938288, a3.lng = 135.1960221
+
+MERGE (a4:Station{name:'Ojikoen'})
+ON CREATE SET a4.lat = 34.7103538, a4.lng = 135.2185532
+
+MERGE (a5:Station{name:'Okamoto'})
+ON CREATE SET a5.lat = 34.7290945, a5.lng = 135.275975
+
+MERGE (a6:Station{name:'Shukugawa'})
+ON CREATE SET a6.lat = 34.742135, a6.lng = 135.3279225
+
+MERGE (a7:Station{name:'Nishinomiya-Kitaguchi'})
+ON CREATE SET a7.lat = 34.7459067, a7.lng = 135.3567014
+
+MERGE (a8:Station{name:'Tsukaguchi'})
+ON CREATE SET a8.lat = 34.7530443, a8.lng = 135.4156174
+
+MERGE (a9:Station{name:'Sonoda'})
+ON CREATE SET a9.lat = 34.7518892, a9.lng = 135.4479306
+
+MERGE (a10:Station{name:'Juso'})
+ON CREATE SET a10.lat = 34.7204276, a10.lng = 135.4824437
+
+MERGE (a11:Station{name:'Osaka-Umeda'})
+ON CREATE SET a11.lat = 34.7050172, a11.lng = 135.4984499
+
+MERGE (a12:Station{name:'Takarazuka'})
+ON CREATE SET a12.lat = 34.8105201, a12.lng = 135.3408562
+
+MERGE (a13:Station{name:'Takarazuka-Minamiguchi'})
+ON CREATE SET a13.lat = 34.8042804, a13.lng = 135.3458464
+
+MERGE (a14:Station{name:'Nigawa'})
+ON CREATE SET a14.lat = 34.775198, a14.lng = 135.356916
+
+MERGE (a15:Station{name:'Hanshinkokudo'})
+ON CREATE SET a15.lat = 34.7376224, a15.lng = 135.355021
+
+MERGE (a16:Station{name:'Imazu'})
+ON CREATE SET a16.lat = 34.730725, a16.lng = 135.3518474
+
+MERGE (a17:Station{name:'Koyoen'})
+ON CREATE SET a17.lat = 34.7608594, a17.lng = 135.3299222
+
+MERGE (a18:Station{name:'Itami'})
+ON CREATE SET a18.lat = 34.7799167, a18.lng = 135.4136043
+
+MERGE (a19:Station{name:'Inano'})
+ON CREATE SET a19.lat = 34.7647714, a19.lng = 135.4157242
+
+MERGE (a20:Station{name:'Mefujinja'})
+ON CREATE SET a20.lat = 34.8154948, a20.lng = 135.3612473
+
+MERGE (a21:Station{name:'Yamamoto'})
+ON CREATE SET a21.lat = 34.8219418, a21.lng = 135.3885387
+
+MERGE (a22:Station{name:'Kawanishi-Noseguchi'})
+ON CREATE SET a22.lat = 34.827646, a22.lng = 135.4131059
+
+MERGE (a23:Station{name:'Ishibashi'})
+ON CREATE SET a23.lat = 34.8081475, a23.lng = 135.445713
+
+MERGE (a24:Station{name:'Hotarugaike'})
+ON CREATE SET a24.lat = 34.7946036, a24.lng = 135.4493119
+
+MERGE (a25:Station{name:'Toyonaka'})
+ON CREATE SET a25.lat = 34.7875063, a25.lng = 135.4613099
+
+MERGE (a26:Station{name:'Sone'})
+ON CREATE SET a26.lat = 34.7714838, a26.lng = 135.4676031
+
+MERGE (a27:Station{name:'Shonai'})
+ON CREATE SET a27.lat = 34.7502151, a27.lng = 135.4750965
+
+MERGE (a28:Station{name:'Minoh'})
+ON CREATE SET a28.lat = 34.8351382, a28.lng = 135.4686134
+
+MERGE (a29:Station{name:'Makiochi'})
+ON CREATE SET a29.lat = 34.8081475, a29.lng = 135.445713
+
+MERGE (a30:Station{name:'Kawaramachi'})
+ON CREATE SET a30.lat = 35.003749, a30.lng = 135.7687567
+
+MERGE (a31:Station{name:'Karasuma'})
+ON CREATE SET a31.lat = 35.0036738, a31.lng = 135.7605927
+
+MERGE (a32:Station{name:'Omiya'})
+ON CREATE SET a32.lat = 35.0036084, a32.lng = 135.7479165
+
+MERGE (a33:Station{name:'Saiin'})
+ON CREATE SET a33.lat = 35.0033291, a33.lng = 135.7316212
+
+MERGE (a34:Station{name:'Katsura'})
+ON CREATE SET a34.lat = 34.9794131, a34.lng = 135.7032544
+
+MERGE (a35:Station{name:'Higashi-Muko'})
+ON CREATE SET a35.lat = 34.953242, a35.lng = 135.7046295
+
+MERGE (a36:Station{name:'Nagaoka-Tenjin'})
+ON CREATE SET a36.lat = 34.9247742, a36.lng = 135.6923446
+
+MERGE (a37:Station{name:'Oyamazaki'})
+ON CREATE SET a37.lat = 34.8915321, a37.lng = 135.6816511
+
+MERGE (a38:Station{name:'Takatsuki-Shi'})
+ON CREATE SET a38.lat = 34.8498081, a38.lng = 135.6231392
+
+MERGE (a39:Station{name:'Ibaraki-Shi'})
+ON CREATE SET a39.lat = 34.816611, a39.lng = 135.5758709
+
+MERGE (a40:Station{name:'Minami-Ibaraki'})
+ON CREATE SET a40.lat = 34.802416, a40.lng = 135.5650927
+
+MERGE (a41:Station{name:'Aikawa'})
+ON CREATE SET a41.lat = 34.7573691, a41.lng = 135.5336001
+
+MERGE (a42:Station{name:'Awaji'})
+ON CREATE SET a42.lat = 34.7393627, a42.lng = 135.5169935
+
+MERGE (a43:Station{name:'Minamikata'})
+ON CREATE SET a43.lat = 34.7257372, a43.lng = 135.4995496
+
+MERGE (a44:Station{name:'Kita-Senri'})
+ON CREATE SET a44.lat = 34.8202554, a44.lng = 135.5109441
+
+MERGE (a45:Station{name:'Yamada'})
+ON CREATE SET a45.lat = 34.8044543, a45.lng = 135.5156729
+
+MERGE (a46:Station{name:'Senriyama'})
+ON CREATE SET a46.lat = 34.778676, a46.lng = 135.5054219
+
+MERGE (a47:Station{name:'Toyotsu'})
+ON CREATE SET a47.lat = 34.7646244, a47.lng = 135.5090431
+
+MERGE (a48:Station{name:'Tenjimbashisuji-rokuchome'})
+ON CREATE SET a48.lat = 34.7107614, a48.lng = 135.5108222
+
+
+MERGE (a1)-[:Connected{distance:0.5912, Operator :'Hankyu Railway', Railway: 'Hankyu-Kobe Line'}]->(a2)
+MERGE (a2)-[:Connected{distance:2.475, Operator :'Hankyu Railway', Railway: 'Hankyu-Kobe Line'}]->(a3)
+MERGE (a3)-[:Connected{distance:2.7602, Operator :'Hankyu Railway', Railway: 'Hankyu-Kobe Line'}]->(a4)
+MERGE (a4)-[:Connected{distance:5.6467, Operator :'Hankyu Railway', Railway: 'Hankyu-Kobe Line'}]->(a5)
+MERGE (a5)-[:Connected{distance:4.9634, Operator :'Hankyu Railway', Railway: 'Hankyu-Kobe Line'}]->(a6)
+MERGE (a6)-[:Connected{distance:2.6628, Operator :'Hankyu Railway', Railway: 'Hankyu-Kobe Line'}]->(a7)
+MERGE (a7)-[:Connected{distance:5.441, Operator :'Hankyu Railway', Railway: 'Hankyu-Kobe Line'}]->(a8)
+MERGE (a8)-[:Connected{distance:2.9549, Operator :'Hankyu Railway', Railway: 'Hankyu-Kobe Line'}]->(a9)
+MERGE (a9)-[:Connected{distance:4.7101, Operator :'Hankyu Railway', Railway: 'Hankyu-Kobe Line'}]->(a10)
+MERGE (a10)-[:Connected{distance:2.2532, Operator :'Hankyu Railway', Railway: 'Hankyu-Kobe Line'}]->(a11)
+MERGE (a12)-[:Connected{distance:0.83, Operator :'Hankyu Railway', Railway: 'Hankyu-Imazu Line'}]->(a13)
+MERGE (a13)-[:Connected{distance:3.3881, Operator :'Hankyu Railway', Railway: 'Hankyu-Imazu Line'}]->(a14)
+MERGE (a14)-[:Connected{distance:3.2571, Operator :'Hankyu Railway', Railway: 'Hankyu-Imazu Line'}]->(a7)
+MERGE (a7)-[:Connected{distance:0.9339, Operator :'Hankyu Railway', Railway: 'Hankyu-Imazu Line'}]->(a15)
+MERGE (a15)-[:Connected{distance:0.82, Operator :'Hankyu Railway', Railway: 'Hankyu-Imazu Line'}]->(a16)
+MERGE (a17)-[:Connected{distance:2.0901, Operator :'Hankyu Railway', Railway: 'Hankyu-Koyo Line'}]->(a6)
+MERGE (a18)-[:Connected{distance:1.6952, Operator :'Hankyu Railway', Railway: 'Hankyu-Itami Line'}]->(a19)
+MERGE (a19)-[:Connected{distance:1.304, Operator :'Hankyu Railway', Railway: 'Hankyu-Itami Line'}]->(a8)
+MERGE (a12)-[:Connected{distance:1.942, Operator :'Hankyu Railway', Railway: 'Hankyu-Takarazuka Line'}]->(a20)
+MERGE (a20)-[:Connected{distance:2.5924, Operator :'Hankyu Railway', Railway: 'Hankyu-Takarazuka Line'}]->(a21)
+MERGE (a21)-[:Connected{distance:2.3305, Operator :'Hankyu Railway', Railway: 'Hankyu-Takarazuka Line'}]->(a22)
+MERGE (a22)-[:Connected{distance:3.6825, Operator :'Hankyu Railway', Railway: 'Hankyu-Takarazuka Line'}]->(a23)
+MERGE (a23)-[:Connected{distance:1.5414, Operator :'Hankyu Railway', Railway: 'Hankyu-Takarazuka Line'}]->(a24)
+MERGE (a24)-[:Connected{distance:1.3503, Operator :'Hankyu Railway', Railway: 'Hankyu-Takarazuka Line'}]->(a25)
+MERGE (a25)-[:Connected{distance:1.872, Operator :'Hankyu Railway', Railway: 'Hankyu-Takarazuka Line'}]->(a26)
+MERGE (a26)-[:Connected{distance:2.462, Operator :'Hankyu Railway', Railway: 'Hankyu-Takarazuka Line'}]->(a27)
+MERGE (a27)-[:Connected{distance:3.3796, Operator :'Hankyu Railway', Railway: 'Hankyu-Takarazuka Line'}]->(a10)
+MERGE (a10)-[:Connected{distance:2.2532, Operator :'Hankyu Railway', Railway: 'Hankyu-Takarazuka Line'}]->(a11)
+MERGE (a28)-[:Connected{distance:3.6575, Operator :'Hankyu Railway', Railway: 'Hankyu-Minoh Line'}]->(a29)
+MERGE (a29)-[:Connected{distance:0.0, Operator :'Hankyu Railway', Railway: 'Hankyu-Minoh Line'}]->(a23)
+MERGE (a30)-[:Connected{distance:0.7436, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a31)
+MERGE (a31)-[:Connected{distance:1.1546, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a32)
+MERGE (a32)-[:Connected{distance:1.4845, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a33)
+MERGE (a33)-[:Connected{distance:3.708, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a34)
+MERGE (a34)-[:Connected{distance:2.9128, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a35)
+MERGE (a35)-[:Connected{distance:3.3577, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a36)
+MERGE (a36)-[:Connected{distance:3.8228, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a37)
+MERGE (a37)-[:Connected{distance:7.0724, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a38)
+MERGE (a38)-[:Connected{distance:5.6779, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a39)
+MERGE (a39)-[:Connected{distance:1.86, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a40)
+MERGE (a40)-[:Connected{distance:5.776, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a41)
+MERGE (a41)-[:Connected{distance:2.5122, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a42)
+MERGE (a42)-[:Connected{distance:2.1992, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a43)
+MERGE (a43)-[:Connected{distance:1.6711, Operator :'Hankyu Railway', Railway: 'Hankyu-Kyoto Line'}]->(a10)
+MERGE (a44)-[:Connected{distance:1.8093, Operator :'Hankyu Railway', Railway: 'Hankyu-Senri Line'}]->(a45)
+MERGE (a45)-[:Connected{distance:3.0154, Operator :'Hankyu Railway', Railway: 'Hankyu-Senri Line'}]->(a46)
+MERGE (a46)-[:Connected{distance:1.5971, Operator :'Hankyu Railway', Railway: 'Hankyu-Senri Line'}]->(a47)
+MERGE (a47)-[:Connected{distance:2.9014, Operator :'Hankyu Railway', Railway: 'Hankyu-Senri Line'}]->(a42)
+MERGE (a42)-[:Connected{distance:3.2299, Operator :'Hankyu Railway', Railway: 'Hankyu-Senri Line'}]->(a48)
